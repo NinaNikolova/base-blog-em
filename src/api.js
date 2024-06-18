@@ -11,7 +11,7 @@ export async function fetchComments(postId) {
   );
   return response.json();
 }
-
+// mutation functions
 export async function deletePost(postId) {
   const response = await fetch(
     `https://jsonplaceholder.typicode.com/posts/${postId}`,
