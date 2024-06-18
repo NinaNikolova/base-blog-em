@@ -1,7 +1,15 @@
 # React + Vite + TanStack - This is a TanStack exercice and a blog template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+What is done here about TanStack:
+1. install React Query via NPM: npm i @tanstack/react-query
+2. created QueryClient and QueryClientProvider
+3. useQuery for data
+- return object also includes isLoading/isFetching and error
+4. staleTime for where or not to re-fetch (on trigger)
+5. gcTime for how long to hold on to data after inactivity
+6. pagination and pre-fetching
+7. useMutation for server side-effects
 
-Currently, two official plugins are available:
+
 
 
